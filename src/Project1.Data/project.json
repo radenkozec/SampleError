@@ -1,0 +1,34 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Project1.Data Class Library",
+  "authors": [ "zecr" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+ "dependencies": {
+    "Microsoft.Framework.Configuration.Abstractions": "1.0.0-beta6",
+    "Microsoft.Framework.Configuration.Json": "1.0.0-beta6",
+    "Newtonsoft.Json": "7.0.1-beta3"
+  },
+
+  "frameworks": {
+    "dnx451": {
+        "frameworkAssemblies": {
+          "System.Net.Http": "",
+          "System.Runtime": "",
+          "System.Data": ""
+        }
+    },
+    "dotnet": {
+      "dependencies": {
+        "System.Collections": "4.0.10-beta-23109",
+        "System.Runtime": "4.0.20-beta-23109",
+        "System.Runtime.Extensions": "4.0.10-beta-23109",
+        "System.Net.Http": "4.0.0-beta-23109",
+        "System.Data.SqlClient": "4.0.0-beta-23109",
+        "System.Data.Common": "4.0.0-beta-23109"
+      }
+    }
+  }
+}
